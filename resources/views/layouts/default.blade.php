@@ -208,6 +208,21 @@ Twitter: @rich_clark
       border-radius: 10px;
     }
 
+    .card__header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .auth {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+
+    .detail {
+      margin-right: 1rem;
+    }
+
     .title {
       font-weight: bold;
       font-size: 24px;
@@ -250,6 +265,18 @@ Twitter: @rich_clark
       ;
     }
 
+    .btn {
+      text-align: left;
+      font-size: 12px;
+      background-color: #fff;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.4s;
+      outline: none;
+    }
+
     .button-add {
       text-align: left;
       border: 2px solid #dc70fa;
@@ -274,31 +301,46 @@ Twitter: @rich_clark
       outline: none;
     }
 
-    .button-update {
-      text-align: left;
-      border: 2px solid #fa9770;
-      font-size: 12px;
-      color: #fa9770;
-      background-color: #fff;
-      font-weight: bold;
-      padding: 8px 16px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: 0.4s;
-      outline: none;
+    .btn-logout {
+      border: 2px solid #FF0000;
+      color: #FF0000;
     }
 
-    .button-delete {
-      text-align: left;
+    .btn-search {
+      display: inline-block;
+      border: 2px solid #cdf119;
+      color: #cdf119;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+
+    .btn-update {
+      border: 2px solid #fa9770;
+      color: #fa9770;
+    }
+
+    .btn-delete {
       border: 2px solid #71fadc;
-      font-size: 12px;
       color: #71fadc;
+    }
+
+    .btn-add {
+      border: 2px solid #dc70fa;
+      color: #dc70fa;
+    }
+
+    .btn-back {
+      border: 2px solid #6d7170;
+      color: #6d7170;
       background-color: #fff;
-      font-weight: bold;
-      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    .select-tag {
+      padding: 5px;
       border-radius: 5px;
-      cursor: pointer;
-      transition: 0.4s;
+      border: 1px solid #ccc;
+      font-size: 14px;
       outline: none;
     }
 
@@ -306,7 +348,6 @@ Twitter: @rich_clark
       color: red;
       margin-bottom: 5px;
     }
-
   </style>
 </head>
 
