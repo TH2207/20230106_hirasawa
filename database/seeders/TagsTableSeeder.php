@@ -15,23 +15,23 @@ class TagsTableSeeder extends Seeder
     public function run()
     {
         $param = [
-            'tag' => '家事'
+            'content' => '家事'
         ];
         Tag::create($param);
         $param = [
-            'tag' => '勉強'
+            'content' => '勉強'
         ];
         Tag::create($param);
         $param = [
-            'tag' => '運動'
+            'content' => '運動'
         ];
         Tag::create($param);
         $param = [
-            'tag' => '食事'
+            'content' => '食事'
         ];
         Tag::create($param);
         $param = [
-            'tag' => '移動'
+            'content' => '移動'
         ];
         Tag::create($param);
     }
